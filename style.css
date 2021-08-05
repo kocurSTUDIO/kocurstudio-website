@@ -1,0 +1,61 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #303030;
+    color: #f6f4f4;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+    text-align: center;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    font-weight: 800;
+    font-size: 2.75rem;
+
+    letter-spacing: 1px;
+    word-break: break-all;
+}
+.subtitle{
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.redirection{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    padding: 0.75rem;
+
+    opacity: 0.4;
+    color: #f6f4f4;
+
+    text-decoration: none;
+
+    transition: opacity 400ms;
+}
+.redirection:hover{
+    opacity: 1;
+}
+
+@media (max-width: 450px) {
+    .title{
+        font-size: 2rem;
+    }
+}
