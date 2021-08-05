@@ -6,5 +6,5 @@ official website for kocurSTUDIO!
 
 ## todos
 - ~~pin domain (https://www.kocurstudio.xyz/), with ssl~~,
-- change fonts,
+- ~~change fonts~~,
 - add meta-tags
